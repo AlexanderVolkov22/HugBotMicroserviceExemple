@@ -1,0 +1,5 @@
+dbadress = "*"
+dbuser = "*"
+dbpass = "*"
+db = "*"
+token = "*"
