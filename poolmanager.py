@@ -4,5 +4,5 @@ from privconstants import *
 
 
 async def poolmanager():
-    pool = await asyncpg.create_pool(user=dbuser, dbpass=dbpass, database=db, host=dbadress)
+    pool = await asyncpg.create_pool(user=dbuser, password=dbpass, database=db, host=dbadress)
     return pool
